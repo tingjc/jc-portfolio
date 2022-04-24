@@ -7,20 +7,21 @@
     <title>JC's Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./styles/style.css" >
 </head>
 <body>
     <header id="top">
         <nav>
-            <h3><a href="#top">JC</a></h3>
-            <ul>
-                <li><a href="#">home</a></li>
-                <li><a href="#">about</a></li>
-                <li><a href="#">projects</a></li>
-                <li><a href="#" class="button">get in touch</a></li>
-            </ul>
-
+            <div class="wrapper">
+                <h3><a href="#top">JC</a></h3>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">projects</a></li>
+                    <li><a href="#" class="button">get in touch</a></li>
+                </ul>
+            </div> <!-- wrapper END-->
         </nav>
         <div class="wrapper">
             <h1>JC Ting</h1>
@@ -30,15 +31,30 @@
     
     <main>
         <section class="about" id="about">
-            <div class="wrapper">
                 <div class="aboutText">
-                    <h2>about me</h2>
+                    <div class="wrapper">
+                        <h2>about me</h2>
+                        <p>Web developer and budding tabletop roleplay game master. I create accessible and responsive web pages through structured and readable code. With my background in Cognitive Science and Linguistics, I break down abstract concepts into intelligible chunks to help create wholesome and inclusive spaces.</p>
+                    </div>
                 </div>
 
                 <div class="skills">
-                    <h2>skills</h2>
+                    <div class="wrapper">
+                        <h2>skills</h2>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS, SCSS</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                            <li>Git, GitHub</li>
+                            <li>React</li>
+                            <li>Firebase</li>
+                            <li>Web Accessibility</li>
+                            <li>Conflict Management</li>
+                            <li>Mental Health Communication</li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
         </section>
 
         <section class="projects" id="projects">
@@ -53,8 +69,8 @@
                         <h4>HTML, CSS/SASS, JavaScript, FORTRAN</h4>
                         <p>This is a project. It has code. It has links below.</p>
                         <ul>
-                            <li><a href="#">view live</a></li>
-                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#" class="button">view live</a></li>
+                            <li><a href="#" class="button">GitHub</a></li>
                         </ul>
                     </div> <!--projectText END-->
                 </div> <!-- projectContainer END-->
@@ -67,8 +83,8 @@
                         <h4>HTML, CSS/SASS, JavaScript, FORTRAN</h4>
                         <p>This is a project. It has code. It has links below.</p>
                         <ul>
-                            <li><a href="#">view live</a></li>
-                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#" class="button">view live</a></li>
+                            <li><a href="#" class="button">GitHub</a></li>
                         </ul>
                     </div> <!--projectText END-->
                 </div> <!-- projectContainer END-->
@@ -81,8 +97,8 @@
                         <h4>HTML, CSS/SASS, JavaScript, FORTRAN</h4>
                         <p>This is a project. It has code. It has links below.</p>
                         <ul>
-                            <li><a href="#">view live</a></li>
-                            <li><a href="#">GitHub</a></li>
+                            <li><a href="#" class="button">view live</a></li>
+                            <li><a href="#" class="button">GitHub</a></li>
                         </ul>
                     </div> <!--projectText END-->
                 </div> <!-- projectContainer END-->

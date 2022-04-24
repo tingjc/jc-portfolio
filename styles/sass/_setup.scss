@@ -33,6 +33,10 @@ ul {
     padding: 0;
 }
 
+li::before {
+    content: "\200B";
+}
+
 img {
     max-width: 100%;
     display: block;

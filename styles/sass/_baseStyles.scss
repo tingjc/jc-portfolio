@@ -3,3 +3,29 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+header,
+.about {
+    border-bottom: 5px dashed $primary;
+}
+
+a {
+    padding: 4px 8px;
+
+    &:focus,    
+    &:hover {
+        background: $primary;
+        color: $light;
+        margin: 1px;
+        border: 2px dashed $light;
+    }
+}
+.button {
+    background-color: $highlight;
+    
+}
+
+section {
+    padding: 1vh 0;
+}
+

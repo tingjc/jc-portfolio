@@ -1,0 +1,32 @@
+// About section
+
+.aboutText,
+.skills {
+    padding: 2vh 0;
+}
+
+.aboutText {
+    background: $secondary;
+} // .aboutText END
+
+.skills {
+    background: $primary;
+    color: $light;
+
+    ul {
+        list-style-type: disc;
+        list-style-position: inside;
+        column-count: 3;
+        column-width: 150px;
+    }
+
+    li::marker {
+        color: $highlight;
+    }
+
+    li {
+        padding: 2.75px 0;
+    }
+} // .skills END
+
+// Project Section
