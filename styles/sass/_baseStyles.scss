@@ -4,28 +4,29 @@
     margin: 0 auto;
 }
 
-header,
-.about {
-    border-bottom: 5px dashed $primary;
-}
-
 a {
+    display: inline-block;
     padding: 4px 8px;
+    width: 128px;
+    text-align: center;
+    border: 2px solid $light;
 
     &:focus,    
     &:hover {
-        background: $primary;
-        color: $light;
-        margin: 1px;
-        border: 2px dashed $light;
+        border: 2px dashed $primary;
     }
 }
 .button {
     background-color: $highlight;
+    &:focus,    
+    &:hover {
+        color: $light;
+        background: $primary;
+    }
     
 }
 
 section {
-    padding: 1vh 0;
+    padding: 4vh 0;
 }
 

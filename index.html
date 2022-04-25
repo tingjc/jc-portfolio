@@ -9,21 +9,28 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./styles/style.css" >
+    <script src="https://kit.fontawesome.com/60db61ffa1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="top">
         <nav>
             <div class="wrapper">
                 <h3><a href="#top">JC</a></h3>
-                <ul>
+                <ul class="upTop">
                     <li><a href="#">home</a></li>
                     <li><a href="#">about</a></li>
                     <li><a href="#">projects</a></li>
                     <li><a href="#" class="button">get in touch</a></li>
                 </ul>
+                <input type="checkbox" id="slideDownMenu">
+                <label for="slideDownMenu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                
+
             </div> <!-- wrapper END-->
         </nav>
-        <div class="wrapper">
+        <div class="wrapper headerContent">
             <h1>JC Ting</h1>
             <h4>Under Construction</h4>
         </div>
@@ -65,12 +72,12 @@
 
                     </div>
                     <div class="projectText">
-                        <h3>project title</h3>
-                        <h4>HTML, CSS/SASS, JavaScript, FORTRAN</h4>
-                        <p>This is a project. It has code. It has links below.</p>
+                        <h3>A Phantom Thief Targets the Met</h3>
+                        <h4>HTML, CSS/SASS, JavaScript</h4>
+                        <p>A collaborative project made with <a href="https://www.poongigi.com" class="inLine">Gigi Poon</a>. The Phantom Bunny Thief Hare-sin Lupin uses the Metropolitan Museum of Art's API to search for works that are on display at The Met. </p>
                         <ul>
-                            <li><a href="#" class="button">view live</a></li>
-                            <li><a href="#" class="button">GitHub</a></li>
+                            <li><a href="https://project2-gigi-jc.netlify.app/" class="button">view live</a></li>
+                            <li><a href="https://github.com/ArtsyBun/project2-JC-and-Gigi" class="button">GitHub</a></li>
                         </ul>
                     </div> <!--projectText END-->
                 </div> <!-- projectContainer END-->
@@ -114,7 +121,6 @@
                         <ul>
                             <li><a href="#">LinkedIn</a></li>
                             <li><a href="#">GitHub</a></li>
-                            <li><a href="#"></a>Twitter</li>
                             <li><a href="#">Email</a></li>
                         </ul>
                     </nav>
@@ -126,5 +132,6 @@
     <footer>
         <p>© 2022</p>
     </footer>
+    <script src="./scripts/scripts.js"></script>
 </body>
 </html>

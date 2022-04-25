@@ -1,5 +1,17 @@
 // About section
 
+.about {
+    // CUT TO MEDIA QUERY LATER
+    // width: 95%;
+    // max-width: 1000px;
+    // padding: 0.5vh;
+    // margin: 0 auto;
+    // border: 3px dashed $primary;
+
+    border-top: 5px dashed $primary;
+    border-bottom: 5px dashed $primary;
+}
+
 .aboutText,
 .skills {
     padding: 2vh 0;
@@ -15,9 +27,10 @@
 
     ul {
         list-style-type: disc;
-        list-style-position: inside;
+        list-style-position: outside;
         column-count: 3;
         column-width: 150px;
+        padding: 0 2.5%;
     }
 
     li::marker {
@@ -25,8 +38,43 @@
     }
 
     li {
-        padding: 2.75px 0;
+        padding: 5% 0;
     }
 } // .skills END
 
 // Project Section
+
+.projects {
+    h4 {
+        color: $primary;
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li {
+        margin-right: 24px;
+    }
+
+    .projectText {
+        a.inLine {
+            display: inline;
+            padding: inherit;
+        }
+
+        
+    }
+} // .projects END
+
+// Contact section
+.contact {
+    background: $tertiary;
+} // .contact END
+
+// Footer section
+
+footer {
+    background: $primary;
+    color: $light;
+}
