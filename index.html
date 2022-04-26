@@ -17,15 +17,17 @@
             <div class="wrapper">
                 <h3><a href="#top">JC</a></h3>
                 <ul class="upTop">
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">projects</a></li>
-                    <li><a href="#" class="button">get in touch</a></li>
+                    <li><a href="#top">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact" class="button">get in touch</a></li>
                 </ul>
-                <input type="checkbox" id="slideDownMenu">
-                <label for="slideDownMenu">
-                    <i class="fa-solid fa-bars"></i>
-                </label>
+                <div class="menuButtonContainer">
+                    <input type="checkbox" id="slideDownMenu">
+                    <label for="slideDownMenu">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                </div>
                 
 
             </div> <!-- wrapper END-->
@@ -67,48 +69,49 @@
         <section class="projects" id="projects">
             <div class="wrapper">
                 <h2>projects</h2>
-                <div class="projectContainer">
-                    <div class="projectImg">
+                <div class="projectGallery">
+                    <div class="projectContainer">
+                        <div class="projectImg">
+                            <img src="https://www.placebear.com/400/400" alt="placeholder">
 
-                    </div>
-                    <div class="projectText">
-                        <h3>A Phantom Thief Targets the Met</h3>
-                        <h4>HTML, CSS/SASS, JavaScript</h4>
-                        <p>A collaborative project made with <a href="https://www.poongigi.com" class="inLine">Gigi Poon</a>. The Phantom Bunny Thief Hare-sin Lupin uses the Metropolitan Museum of Art's API to search for works that are on display at The Met. </p>
-                        <ul>
-                            <li><a href="https://project2-gigi-jc.netlify.app/" class="button">view live</a></li>
-                            <li><a href="https://github.com/ArtsyBun/project2-JC-and-Gigi" class="button">GitHub</a></li>
-                        </ul>
-                    </div> <!--projectText END-->
-                </div> <!-- projectContainer END-->
-                <div class="projectContainer">
-                    <div class="projectImg">
+                        </div>
+                        <div class="projectText">
+                            <h3><a href="https://project2-gigi-jc.netlify.app/" class="inLine">A Phantom Thief Targets the Met</a></h3>
+                            <h4>HTML, CSS/SASS, JavaScript</h4>
+                            <p>A collaborative project made with <a href="https://www.poongigi.com" class="inLine">Gigi Poon</a>. The Phantom Bunny Thief Hare-sin Lupin uses the Metropolitan Museum of Art's API to search for works that are on display at The Met. </p>
+                                
+                            <a href="https://github.com/ArtsyBun/project2-JC-and-Gigi" class="button">GitHub</a>
+                        
+                        </div> <!--projectText END-->
+                    </div> <!-- projectContainer END-->
+                    <div class="projectContainer">
+                        <div class="projectImg">
+                            <img src="https://www.placebear.com/400/400" alt="placeholder">
+                        </div>
+                        <div class="projectText">
+                            <h3><a href="https://tingjc.github.io/WD-Project1-Planted/" class="inLine">Planted</a></h3>
+                            <h4>HTML, CSS/SASS</h4>
+                            <p>A multi-page website created from a given design. The site is responsive for mobile, tablet, and desktop screens. The CSS was designed with future content in mind. </p>
+                            
+                            <a href="https://github.com/tingjc/WD-Project1-Planted" class="button">GitHub</a>
+                        </div> <!--projectText END-->
+                    </div> <!-- projectContainer END-->
+                    <div class="projectContainer">
+                        <div class="projectImg">
+                            <img src="https://www.placebear.com/400/400" alt="placeholder">
 
-                    </div>
-                    <div class="projectText">
-                        <h3>project title</h3>
-                        <h4>HTML, CSS/SASS, JavaScript, FORTRAN</h4>
-                        <p>This is a project. It has code. It has links below.</p>
-                        <ul>
-                            <li><a href="#" class="button">view live</a></li>
-                            <li><a href="#" class="button">GitHub</a></li>
-                        </ul>
-                    </div> <!--projectText END-->
-                </div> <!-- projectContainer END-->
-                <div class="projectContainer">
-                    <div class="projectImg">
-
-                    </div>
-                    <div class="projectText">
-                        <h3>project title</h3>
-                        <h4>HTML, CSS/SASS, JavaScript, FORTRAN</h4>
-                        <p>This is a project. It has code. It has links below.</p>
-                        <ul>
-                            <li><a href="#" class="button">view live</a></li>
-                            <li><a href="#" class="button">GitHub</a></li>
-                        </ul>
-                    </div> <!--projectText END-->
-                </div> <!-- projectContainer END-->
+                        </div>
+                        <div class="projectText">
+                            <h3>project title</h3>
+                            <h4>HTML, CSS/SASS, JavaScript, FORTRAN</h4>
+                            <p>This is a project. It has code. It has links below.</p>
+                            <ul>
+                                <li><a href="#" class="button">view live</a></li>
+                                <li><a href="#" class="button">GitHub</a></li>
+                            </ul>
+                        </div> <!--projectText END-->
+                    </div> <!-- projectContainer END-->
+                </div> <!-- projectGallery END-->
             </div> <!-- wrapper END-->
         </section>
 
@@ -119,9 +122,15 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est nisi voluptas maiores qui voluptatem quaerat dolorum impedit nemo totam veniam aliquid, praesentium maxime, ipsam id quidem iusto officiis suscipit rerum!</p>
                     <nav>
                         <ul>
-                            <li><a href="#">LinkedIn</a></li>
-                            <li><a href="#">GitHub</a></li>
-                            <li><a href="#">Email</a></li>
+                            <li><a href="https://www.linkedin.com/in/jean-c-ting/" 
+                                class="inLine"
+                                title="LinkedIn Profile">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a></li>
+                            <li><a href="https://github.com/tingjc"
+                                class="inLine" title="GitHub Profile"><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href="mailto: jean.claude.ting@gmail.com" 
+                                class="inLine"title="send an email"><i class="fa-solid fa-envelope"></i></a></li>
                         </ul>
                     </nav>
                 </div> <!-- end contactText-->

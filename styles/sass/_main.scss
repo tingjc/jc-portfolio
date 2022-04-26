@@ -1,13 +1,6 @@
 // About section
 
 .about {
-    // CUT TO MEDIA QUERY LATER
-    // width: 95%;
-    // max-width: 1000px;
-    // padding: 0.5vh;
-    // margin: 0 auto;
-    // border: 3px dashed $primary;
-
     border-top: 5px dashed $primary;
     border-bottom: 5px dashed $primary;
 }
@@ -45,6 +38,21 @@
 // Project Section
 
 .projects {
+    .wrapper,
+    .projectGallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projectGallery {
+        width: 1000px;
+    }
+
+    h2 {
+        align-self: flex-start;
+    }
+
     h4 {
         color: $primary;
     }
@@ -53,14 +61,45 @@
         display: flex;
     }
 
-    li {
-        margin-right: 24px;
+    .button {
+        margin-top: 24px;
     }
 
+    .projectContainer {
+        padding: 24px 0;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .projectImg {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+
+        img {
+            padding: 5px;
+            border: 1px dashed $primary;
+        }
+    }
+
+
     .projectText {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px 0;
+
         a.inLine {
             display: inline;
             padding: inherit;
+        }
+
+        .button {
+            align-self: center;
         }
 
         
@@ -70,6 +109,15 @@
 // Contact section
 .contact {
     background: $tertiary;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    a {
+        border: 2px solid $tertiary;
+    }
 } // .contact END
 
 // Footer section
@@ -77,4 +125,6 @@
 footer {
     background: $primary;
     color: $light;
+
+   
 }

@@ -1,0 +1,58 @@
+// Tablet - portrait
+@media(min-width: 760px) {
+    .about {
+    width: 95%;
+    max-width: 800px;
+    padding: 0.5vh;
+    margin: 0 auto;
+    border: 3px dashed $primary;
+    }
+} // end query
+
+// Desktop
+@media(min-width: 1270px) {
+    header {
+        nav .wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        ul {
+            position: static;
+            padding: 0;
+            width: revert;
+            display: flex;
+        }
+
+        .menuButtonContainer {
+            display: none;
+        }
+    } // header END
+
+    .projects {
+        h2 {
+            align-self: center;
+            padding: 100px 0;
+        }
+
+        .projectGallery {
+            align-items: revert;
+        }
+        .projectContainer {
+            border: 5px dashed $primary;
+            margin: 5vh 0;
+
+            &:nth-child(odd) {
+                align-self: flex-start;
+            }
+
+            &:nth-child(even) {
+                align-self: flex-end;
+            }
+        }
+        .projectText {
+            padding: 20px;
+        }
+    }
+
+} // end query
