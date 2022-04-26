@@ -46,7 +46,8 @@
     }
 
     .projectGallery {
-        width: 1000px;
+        width: 100%;
+        max-width: 1000px;
     }
 
     h2 {
@@ -67,7 +68,8 @@
 
     .projectContainer {
         padding: 24px 0;
-        width: 600px;
+        width: 90%;
+        max-width: 600px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -110,13 +112,25 @@
 .contact {
     background: $tertiary;
 
+    .contactText {
+        display: flex;
+        flex-direction: column;
+    }
+
     ul {
         display: flex;
-        justify-content: space-around;
+        justify-content: flex-end;
     }
 
     a {
         border: 2px solid $tertiary;
+    }
+
+    i {
+        &:focus,    
+        &:hover {
+        border: 2px dashed $primary;
+        }
     }
 } // .contact END
 

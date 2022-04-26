@@ -7,6 +7,15 @@
     margin: 0 auto;
     border: 3px dashed $primary;
     }
+
+    .projects {
+        h2 {
+            align-self: center;
+            padding: 100px 0;
+        }
+    }
+
+    
 } // end query
 
 // Desktop
@@ -30,10 +39,6 @@
     } // header END
 
     .projects {
-        h2 {
-            align-self: center;
-            padding: 100px 0;
-        }
 
         .projectGallery {
             align-items: revert;

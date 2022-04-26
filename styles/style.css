@@ -325,6 +325,15 @@ section {
 
 header {
   height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding-bottom: 16px;
 }
 header nav .wrapper {
@@ -426,7 +435,8 @@ header input {
           align-items: center;
 }
 .projects .projectGallery {
-  width: 1000px;
+  width: 100%;
+  max-width: 1000px;
 }
 .projects h2 {
   -ms-flex-item-align: start;
@@ -445,7 +455,8 @@ header input {
 }
 .projects .projectContainer {
   padding: 24px 0;
-  width: 600px;
+  width: 90%;
+  max-width: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -496,15 +507,28 @@ header input {
 .contact {
   background: #DFE0FC;
 }
+.contact .contactText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
 .contact ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 .contact a {
   border: 2px solid #DFE0FC;
+}
+.contact i:focus, .contact i:hover {
+  border: 2px dashed #3D48AE;
 }
 
 footer {
@@ -519,6 +543,12 @@ footer {
     padding: 0.5vh;
     margin: 0 auto;
     border: 3px dashed #3D48AE;
+  }
+
+  .projects h2 {
+    -ms-flex-item-align: center;
+        align-self: center;
+    padding: 100px 0;
   }
 }
 @media (min-width: 1270px) {
@@ -545,11 +575,6 @@ footer {
     display: none;
   }
 
-  .projects h2 {
-    -ms-flex-item-align: center;
-        align-self: center;
-    padding: 100px 0;
-  }
   .projects .projectGallery {
     -webkit-box-align: revert;
         -ms-flex-align: revert;

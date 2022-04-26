@@ -1,5 +1,8 @@
 header {
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
     nav .wrapper {
         height: 75px;
