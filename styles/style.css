@@ -435,12 +435,8 @@ header input {
           align-items: center;
 }
 .projects .projectGallery {
-  background: #E7E8EE;
-  border: 3px dashed #3D48AE;
   width: 100%;
   max-width: 1000px;
-  height: 800px;
-  overflow-y: scroll;
 }
 .projects h2 {
   -ms-flex-item-align: start;
@@ -559,7 +555,7 @@ footer {
   }
 
   .projectGallery {
-    padding: 0 50px;
+    padding: 0 20px;
   }
 }
 @media (min-width: 1270px) {

@@ -47,15 +47,8 @@
     }
 
     .projectGallery {
-        background: $secondary;
-        border: 3px dashed $primary;
-
         width: 100%;
         max-width: 1000px;
-
-        height: 800px;
-        overflow-y: scroll;
-
     }
 
     h2 {
