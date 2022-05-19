@@ -435,8 +435,12 @@ header input {
           align-items: center;
 }
 .projects .projectGallery {
+  background: #E7E8EE;
+  border: 3px dashed #3D48AE;
   width: 100%;
   max-width: 1000px;
+  height: 800px;
+  overflow-y: scroll;
 }
 .projects h2 {
   -ms-flex-item-align: start;
@@ -454,7 +458,9 @@ header input {
   margin-top: 24px;
 }
 .projects .projectContainer {
-  padding: 24px 0;
+  background: #FFF;
+  padding: 24px 10px;
+  margin: 2.5vh 0;
   width: 90%;
   max-width: 600px;
   display: -webkit-box;
@@ -506,6 +512,7 @@ header input {
 
 .contact {
   background: #DFE0FC;
+  border-top: 5px solid #3D48AE;
 }
 .contact .contactText {
   display: -webkit-box;
@@ -549,6 +556,10 @@ footer {
     -ms-flex-item-align: center;
         align-self: center;
     padding: 100px 0;
+  }
+
+  .projectGallery {
+    padding: 0 50px;
   }
 }
 @media (min-width: 1270px) {
