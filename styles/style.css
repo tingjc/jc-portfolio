@@ -388,6 +388,7 @@ header input {
 .about {
   border-top: 5px dashed #3D48AE;
   border-bottom: 5px dashed #3D48AE;
+  position: sticky;
 }
 
 .aboutText,

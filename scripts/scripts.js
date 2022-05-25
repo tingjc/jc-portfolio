@@ -39,7 +39,6 @@ app.dismissHeader = () => {
 }
 
 app.init = () => {
-    console.log("hello");
     app.dismissHeader();
 
 }
