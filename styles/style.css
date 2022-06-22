@@ -294,6 +294,10 @@ i {
   font-size: 2rem;
 }
 
+body {
+  background: #FBFBFB;
+}
+
 .wrapper {
   width: 90%;
   max-width: 1200px;
@@ -305,7 +309,7 @@ a {
   padding: 4px 8px;
   width: 128px;
   text-align: center;
-  border: 2px solid #FFF;
+  border: 2px solid #FBFBFB;
 }
 a:focus, a:hover {
   border: 2px dashed #3D48AE;
@@ -315,7 +319,7 @@ a:focus, a:hover {
   background-color: #FBAF01;
 }
 .button:focus, .button:hover {
-  color: #FFF;
+  color: #FBFBFB;
   background: #3D48AE;
 }
 
@@ -373,7 +377,7 @@ header ul {
   z-index: 9;
   width: 100%;
   top: 60px;
-  background: #FFF;
+  background: #FBFBFB;
   padding: 5px;
   text-align: center;
 }
@@ -402,7 +406,7 @@ header input {
 
 .skills {
   background: #3D48AE;
-  color: #FFF;
+  color: #FBFBFB;
 }
 .skills ul {
   list-style-type: disc;
@@ -455,7 +459,7 @@ header input {
   margin-top: 24px;
 }
 .projects .projectContainer {
-  background: #FFF;
+  background: #FBFBFB;
   padding: 24px 10px;
   margin: 2.5vh 0;
   width: 90%;
@@ -506,6 +510,11 @@ header input {
   -ms-flex-item-align: center;
       align-self: center;
 }
+.projects .projectText ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 
 .contact {
   background: #DFE0FC;
@@ -537,7 +546,7 @@ header input {
 
 footer {
   background: #3D48AE;
-  color: #FFF;
+  color: #FBFBFB;
 }
 
 @media (min-width: 760px) {
