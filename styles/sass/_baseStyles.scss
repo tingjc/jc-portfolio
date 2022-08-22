@@ -19,11 +19,12 @@ a {
     &:hover {
         border: 2px dashed $primary;
     }
+
 }
 .button {
     background-color: $highlight;
     border-radius: 4px;
-    
+
     &:focus,    
     &:hover {
         color: $light;

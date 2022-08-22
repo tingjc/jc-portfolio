@@ -503,6 +503,9 @@ header input {
       justify-content: space-around;
   padding: 20px 0;
 }
+.projects .projectText a:visited {
+  color: #141c65;
+}
 .projects .projectText a.inLine {
   display: inline;
   padding: inherit;

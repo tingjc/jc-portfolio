@@ -101,6 +101,10 @@
         justify-content: space-around;
         padding: 20px 0;
 
+        a:visited {
+            color: $primaryDarker;
+        }
+
         a.inLine {
             display: inline;
             padding: inherit;
