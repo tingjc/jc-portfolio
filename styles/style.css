@@ -317,6 +317,7 @@ a:focus, a:hover {
 
 .button {
   background-color: #FBAF01;
+  border-radius: 4px;
 }
 .button:focus, .button:hover {
   color: #FBFBFB;
@@ -557,13 +558,11 @@ footer {
     margin: 0 auto;
     border: 3px dashed #3D48AE;
   }
-
   .projects h2 {
     -ms-flex-item-align: center;
         align-self: center;
     padding: 100px 0;
   }
-
   .projectGallery {
     padding: 0 20px;
   }
@@ -591,7 +590,6 @@ footer {
   header .menuButtonContainer {
     display: none;
   }
-
   .projects .projectGallery {
     -webkit-box-align: revert;
         -ms-flex-align: revert;
